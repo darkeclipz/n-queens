@@ -1,0 +1,16 @@
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\MinConflicts.exe
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\MinConflicts.deps.json
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\MinConflicts.runtimeconfig.json
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\MinConflicts.runtimeconfig.dev.json
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\MinConflicts.dll
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\ref\MinConflicts.dll
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\bin\Debug\net5.0\MinConflicts.pdb
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.csproj.AssemblyReference.cache
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.AssemblyInfoInputs.cache
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.AssemblyInfo.cs
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.csproj.CoreCompileInputs.cache
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.dll
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\ref\MinConflicts.dll
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.pdb
+C:\Users\Isomorphism\source\repos\MinConflicts\MinConflicts\obj\Debug\net5.0\MinConflicts.genruntimeconfig.cache
