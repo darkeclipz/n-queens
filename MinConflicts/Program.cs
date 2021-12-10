@@ -14,10 +14,9 @@ namespace NQueens
             ShowWindow(ThisConsole, MAXIMIZE);
             CspModel model = new();
             int n = 128;
-            Domain domain = new(Enumerable.Range(0, n).ToArray());
             for (int i = 0; i < n; i++)
             {
-                model.CreateVariable($"Q{i}", i, domain);
+                model.CreateVariable($"Q{i}", i);
             }
             MinConflictSolver solver = new(model);
             solver.Solve();
@@ -38,46 +37,27 @@ namespace NQueens
         #endregion
     }
 
-    class Domain
-    {
-        public List<int> Values { get; set; }
-
-        public Domain(params int[] values)
-        {
-            Values = values.ToList();
-        }
-
-        public static Domain Copy(Domain domain)
-        {
-            return new Domain(domain.Values.ToArray());
-        }
-    }
-
     class Variable
     {
         public string Name { get; set; }
         public int Value { get; set; }
         public bool IsSet { get; set; }
-        public Domain Domain { get; set; }
         public int Index { get; set; }
 
-        public Variable(string name, int index, Domain domain)
+        public Variable(string name, int index)
         {
             Name = name;
             Index = index;
-            Domain = Domain.Copy(domain);
         }
 
         public void Assign(int value)
         {
             Value = value;
             IsSet = true;
-            Domain.Values.Remove(value);
         }
 
         public void Unassign()
         {
-            Domain.Values.Add(Value);
             Value = 0;
             IsSet = false;
         }
@@ -100,9 +80,9 @@ namespace NQueens
     {
         public List<Variable> Variables { get; set; } = new();
 
-        public Variable CreateVariable(string name, int index, Domain domain)
+        public Variable CreateVariable(string name, int index)
         {
-            Variable variable = new(name, index, domain);
+            Variable variable = new(name, index);
             Variables.Add(variable);
             return variable;
         }
