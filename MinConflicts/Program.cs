@@ -13,7 +13,7 @@ namespace NQueens
         {
             ShowWindow(ThisConsole, MAXIMIZE);
             CspModel model = new();
-            int n = 128;
+            int n = 1024;
             for (int i = 0; i < n; i++)
             {
                 model.CreateVariable($"Q{i}", i);
