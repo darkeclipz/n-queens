@@ -160,8 +160,7 @@ namespace NQueens
                 }
             }
 
-            Variable randomVariable = conflictedVariable[Rng.Next(0, conflictedVariable.Count)];
-            return randomVariable;
+            return conflictedVariable[Rng.Next(0, conflictedVariable.Count)];
         }
 
         private Variable GetMostConflictedVariable()
